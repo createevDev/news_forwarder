@@ -32,5 +32,5 @@ jobs:
           echo "CHANNEL_USERNAME=${{ secrets.CHANNEL_USERNAME }}" >> $GITHUB_ENV
 
       - name: Run script
-        run: python src/main.py
+        run: python full.py
 
