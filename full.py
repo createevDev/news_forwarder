@@ -39,7 +39,7 @@ if missing_vars:
     raise EnvironmentError(f"Variabel lingkungan berikut tidak ditemukan: {', '.join(missing_vars)}")
 
 # Buat session Telethon dengan akun Telegram pribadi
-client = TelegramClient("user_session", API_ID, API_HASH)
+client = TelegramClient("user_session", API_ID, API_HASH).start()
 
 async def process_message(event):
     message_text = event.message.text
