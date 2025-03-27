@@ -1,2 +1,2 @@
 #### News Forwarder
-forward messages from a news channel on Telegram to X
+forward news channel messages on Telegram to X
